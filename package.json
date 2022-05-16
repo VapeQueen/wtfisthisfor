@@ -1,0 +1,23 @@
+{
+    "name": "Shadow",
+    "version": "1.0.0",
+    "repository": "https://github.com/FogNetwork/Shadow",
+    "bugs": {
+        "url": "https://github.com/FogNetwork/Shadow/issues"
+    },
+    "description": "Shadow is a simple yet stunning service built to access any website",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "Fog Network",
+    "license": "MIT",
+    "dependencies": {
+        "acorn-hammerhead": "^0.5.0",
+        "css-tree": "^1.1.3",
+        "express": "^4.17.1",
+        "parse5": "^6.0.1",
+        "webpack": "^5.61.0",
+        "node-fetch": "2.1.0"
+    }
+}
